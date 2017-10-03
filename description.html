@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>IISER Pune India | iGEM 2017</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper" class="wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h1><a href="#content">Main Course</a></h1>
+								<p>Dig in right away, Bon Appétit!<br />
+								IISER Pune India iGEM 2017 Wiki.</p>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href="index.html">home</a></li>
+									<li>
+										<a href="#">Team</a>
+										<ul>
+											<li><a href="team.html">Team</a></li>
+											<li><a href="#">Collaborations</a></li>
+										</ul>
+									</li>
+									<li class="current">
+										<a href="#">Project</a>
+										<ul>
+											<li><a href="description.html">Description</a></li>
+											<li><a href="#">Design</a></li>
+											<li><a href="#">Experiments</a></li>
+											<li><a href="#">Notebook</a></li>
+											<li><a href="#">InterLab</a></li>
+											<li><a href="#">Contribution</a></li>
+											<li><a href="#">Model</a></li>
+											<li><a href="#">Results</a></li>
+											<li><a href="#">Demonstrate</a></li>
+											<li><a href="#">Improve</a></li>
+											<li><a href="#">Attribution</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Parts</a>
+										<ul>
+											<li><a href="#">Parts</a></li>
+											<li><a href="#">Basic Parts</a></li>
+											<li><a href="#">Composite Pars</a></li>
+											<li><a href="#">Part Collection</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Safety</a></li>
+									<li>
+										<a href="#">Human Practices</a>
+										<ul>
+											<li><a href="#">Silver HP</a></li>
+											<li><a href="#">Integrated and Gold</a></li>
+											<li><a href="#">Public Engagement</a></li>
+											<li><a href="#">Part Collection</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Awards</a></li>
+									<li><a href="#">Judging Form</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style2">
+					<div class="title">The Project</div>
+					<div id="main" class="container">
+
+						<!-- Content -->
+							<div id="content">
+								<article class="box post">
+									<header class="style1">
+										<h2>Lorem ipsum dolor sit amet magna egestas<br class="mobile-hide" />
+										morbi bibendum sed malesuada</h2>
+										<p>Tempus feugiat veroeros sed nullam dolore</p>
+									</header>
+
+									<h1>Motivation</h1>
+									<p>Faster cheaper and easily available diagnostic tools for tuberculosis are the need of the hour. World Health Organisation (WHO) statistics for 2011 gave an estimated incidence figure of 2.2 million cases of TB for India out of a global incidence of 9.6 million cases.Traditional detection techniques take a lot of time owing to the extremely slow cell cycle(48 hours) of <i>M. tuberculosis</i>. Moreover, we require microscopes and staining techniques for detection which may not be available in the economically backward regions of our country. Using synthetic biology tools, we, at IISER-Pune aim at creating a device which will facilitate faster and cheaper diagnosis of TB. We plan to do so by increasing the growth rate of the <i>M. tuberculosis</i>, enabling detection using chromophores (colored pigments) and finally killing it off.</p>
+									
+									<h1>Abstract</h1>
+									<p>The project we wish to present at iGEM 2017, called 'TB or not TB' addresses the growing need for faster and cost-friendly detection of the tuberculosis bacteria, <i>Mycobacterium tuberculosis</i>. It aims at developing a novel technique for TB diagnosis, which we hope will be faster, cheaper and more reliable than the methods that are currently in use. We plan to do so with the help of the following three modules: Hijack module, Detection module and Termination module. The idea is to make the above modules function in E.coli as a proof of principle and replicate the same in <i>M. tuberculosis</i> later.</p>
+									
+									<h1>About Project</h1>
+									<h2>1. Hijack Module</h2>
+									<p>In this module, we aim at accelerating the cell cycle of <i>M. tuberculosis</i> using a genetic oscillator. We have identified two proteins, DNA-A and Fts-Z which participate in the initiation of DNA replication and cell division respectively. These protein levels oscillate during the normal bacterial cell cycle also. Using a genetic oscillator given by Stricker et al, we will oscillate the levels of these proteins and increase the frequency of DNA replication and cell division. The oscillations are possible due to positive and negative feedback loops as shown in the following diagram. In our version, we will add DNA-A sequence downstream of LacI/AraC promoter and Fts-Z downstream of DNA-A dependent PolA promoter, both preceded by RBS of different efficiencies.</p>
+
+									<a href="#" class="image featured">
+										<img src="images/pic01.png" alt="" />
+									</a>
+									
+									<h2>2. Detection Module</h2>
+									<p>To make it easier to identify the presence of the bacteria we will be using chromophore-protein encoding BioBricks available in the iGEM repository, which are visible to the naked eyes like tsPurple (BBa_K1033906), amilCP (BBa_K592009), cjBlue (BBa_K592011), meffBlue (BBa_K1033902) and aeBlue (BBa_K864401).</p>
+									
+									<h2>3. Termination Module</h2>
+									<p>The termination module is based on quorum sensing, which is a phenomenon seen in most bacteria. Bacteria use a molecule called AHL for sensing the number of bacteria in their surroundings. In our construct, this will be followed by the production of a molecule which will be toxic to the bacteria. This will ensure biosafety in our project. We also plan to use another termination method like lysing the cell using an already available BioBrick in the iGEM repository(endolysin), which punctures the cell membrane by creating holes in it.</p>
+									
+									<h2>4. Device</h2>
+									<p>A biosafety device which will ensure zero leakage and prevents the release of any superbugs once the sputum sample is collected in it, thereby making it suitable for clinical tests.</p>
+									
+									<h2>Aplications</h2>
+									<ul>
+									<li>Cheaper diagnosis of tuberculosis, which can be made available easily in all remote areas</li>
+									<li>Safety device ensures prevention of contamination by modified bacteria</li>
+									<li>3A assembly required by iGEM will help in easy modification during further research</li>
+									</ul>
+								</article>
+								<div class="row 150%">
+									<div class="4u 12u(mobile)">
+										<section class="box">
+											<header>
+												<h2>Magna pulvinar tempus</h2>
+											</header>
+											<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+											<p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
+											eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
+											tempus.</p>
+											<a href="#" class="button style1">More</a>
+										</section>
+									</div>
+									<div class="4u 12u(mobile)">
+										<section class="box">
+											<header>
+												<h2>Magna pulvinar tempus</h2>
+											</header>
+											<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+											<p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
+											eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
+											tempus.</p>
+											<a href="#" class="button style1">More</a>
+										</section>
+									</div>
+									<div class="4u 12u(mobile)">
+										<section class="box">
+											<header>
+												<h2>Magna pulvinar tempus</h2>
+											</header>
+											<a href="#" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Rutrum bibendum. Proin pellentesque diam non ligula commodo tempor. Vivamus
+											eget urna nibh. Curabitur non fringilla nisl. Donec accumsan interdum nisi, quis
+											tempus.</p>
+											<a href="#" class="button style1">More</a>
+										</section>
+									</div>
+								</div>
+							</div>
+
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper" class="wrapper">
+					<div class="title">Get In Touch</div>
+					<div id="footer" class="container">
+						<header class="style1">
+							<h2>We'd love to hear from you!</h2>
+							<p>
+								Pop in and say hello, like us on facebook, follow us on twitter.
+							</p>
+						</header>
+						<hr />
+						<div class="row 150%">
+							
+							<div class="12u 12u(mobile)">
+
+								<!-- Contact -->
+									<section class="feature-list small">
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-home">Address</h3>
+													<p>
+														Indian Institute of Science Education and Research,<br />
+														Dr. Homi Bhabha Road, Pashan,<br />
+														Maharashtra, India 411008
+													</p>
+												</section>
+											</div>
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-comment">Social</h3>
+													<p>
+														<a href="https://www.facebook.com/igemiiserpune">facebook.com/igemiiserpune</a>
+													</p>
+												</section>
+											</div>
+										</div>
+										<div class="row">
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-envelope">Email</h3>
+													<p>
+														<a href="#">igem2017@iiserpune.ac.in</a><br />
+														<a href="#">igem2017@iiserpune.ac.in</a>
+													</p>
+												</section>
+											</div>
+											<div class="6u 12u(mobile)">
+												<section>
+													<h3 class="icon fa-phone">Phone</h3>
+													<p>
+														(+91) 022-123456<br />
+														(+91) 022-123456
+													</p>
+												</section>
+											</div>
+										</div>
+									</section>
+
+							</div>
+						</div>
+						<hr />
+					</div>
+					<div id="copyright">
+						<ul>
+							<li>Support bacteria, they're the only culture some people have. Design: Saumil Shah</li>
+						</ul>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
